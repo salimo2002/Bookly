@@ -12,11 +12,7 @@ class Bookly extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       home: const Scaffold(
-        body: Center(
-            child: Text(
-          'Wellcome',
-          style: TextStyle(fontSize: 30),
-        )),
+        body: Center(child: Icon(Icons.flutter_dash)),
       ),
     );
   }
