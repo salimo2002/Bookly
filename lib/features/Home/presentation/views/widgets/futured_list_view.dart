@@ -10,7 +10,7 @@ class FuturedListView extends StatelessWidget {
     return SizedBox(
       height: MediaQuery.of(context).size.height * .25,
       child: ListView.builder(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.only(right: 20),
         scrollDirection: Axis.horizontal,
         itemCount: 10,
         itemBuilder: (context, index) {
